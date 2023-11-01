@@ -69,7 +69,7 @@ body {
 @media screen and (max-width: 452px) {
     #clock-container {
         width: 80%; /*Largura da Div*/
-        height: 80%; /*Altura da Div*/
+        height: 40%; /*Altura da Div*/
     }
 
     #time {
