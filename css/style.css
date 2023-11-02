@@ -1,0 +1,97 @@
+/*Define para todas as Telas*/
+* {
+    padding: 0; /*Zera o Padding*/
+    margin: 0; /*Zera a Margem*/
+    text-align: center; /*Alinha texto ao Centro*/
+    font-family: 'Teko', sans-serif; /*Define a Fonte*/
+}
+
+/*Define a tag body*/
+body {
+    display: flex; /*Ajusta o Display*/
+    justify-content: center; /*Alinha Conteúdo ao Centro*/
+    align-items: center; /*Alinha os Itens ao Centro*/
+    height: 100vh; /*Pega toda a Altura da Tela*/
+    background-color: #1a1a1a; /*Cor Background Cinza Escuro*/
+}
+
+/*Div Clock*/
+#clock {
+    padding: 20px; /*Espaço de 20px entre margens*/
+}
+
+/*Define o Título*/
+#titulo {
+    font-size: 54px; /* Tamanho da Letra*/
+    font-weight: 500; /*Peso da Letra*/
+    color: #404040; /*Cor da Letra*/
+    margin-bottom: 20px; /*Dá uma margem de 20px no final do texto*/
+}
+
+/*Div Pai do Clock*/
+#clock-container {
+    text-align: center; /*Alinha Texto ao Centro*/
+    background-color: #eaeaea; /*Fundo Branco*/
+    border-radius: 16px; /*Arredonda a Div*/
+    padding: 30px; /*Dá um espaço interno de 30px*/
+    box-shadow: 0px 0px 6px #ffffff; /*Adiciona uma Sombra Branca de 6px*/
+    width: 55%; /*Largura da Div*/
+    height: 55%; /*Altura da Div*/
+    position: relative; /*Ajusta a Posição*/
+}
+
+#time {
+    display: flex; /*Ajusta o Display*/
+    font-size: 76px; /*Tamanho da Fonte*/
+    justify-content: center; /*Alinha conteúdo ao Centro*/
+    font-weight: 600; /*Peso da Fonte*/
+    color: #404040; /*Cor da Letra*/
+}
+
+#criador {
+    position: absolute; /*Posição Absoluta*/
+    bottom: 20px; /*Coloca o Item no Final*/
+    left: 0; /*Zera a Esquerda*/
+    right: 0; /*Zera a Direita*/
+    font-size: 28px; /*Tamanho da Fonte*/
+    color: #404040; /*Cor da Letra*/
+    font-weight: 500; /*Peso da Fonte*/
+}
+
+/*Tablet*/
+@media screen and (max-width: 752px) {
+    #time {
+        font-size: 62px; /*Tamanho da Fonte*/
+    }
+}
+
+/*Celular*/
+@media screen and (max-width: 452px) {
+    #clock-container {
+        width: 80%; /*Largura da Div*/
+        height: 80%; /*Altura da Div*/
+    }
+
+    #time {
+        font-size: 52px; /*Tamanho da Fonte*/
+    }
+
+    #criador {
+        font-size: 18px; /*Tamanho da Fonte*/
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    #clock-container {
+        width: 50%; /*Largura da Div*/
+        height: 50%; /*Altura da Div*/
+    }
+
+    #time {
+        font-size: 90px; /*Tamanho da Fonte*/
+    }
+
+    #criador {
+        font-size: 32px; /*Tamanho da Fonte*/
+    }
+}
