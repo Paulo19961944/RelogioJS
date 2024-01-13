@@ -4,4 +4,4 @@ Esse é um projeto onde eu fiz o HTML, CSS e JS para um Relógio em si. Foi usad
 
 Segue o Link Abaixo
 
-[https://paulo19961944.github.io/Thermical-Sensation/](https://paulo19961944.github.io/Thermical-Sensation/)
+[https://paulo19961944.github.io/RelogioJS/](https://paulo19961944.github.io/RelogioJS/)
